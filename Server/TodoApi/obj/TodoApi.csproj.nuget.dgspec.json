@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\פרקטיקוד\\ToDoList\\TodoApi\\TodoApi.csproj": {}
+    "D:\\פרקטיקוד\\ToDoList\\Server\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "D:\\פרקטיקוד\\ToDoList\\TodoApi\\TodoApi.csproj": {
+    "D:\\פרקטיקוד\\ToDoList\\Server\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\פרקטיקוד\\ToDoList\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "D:\\פרקטיקוד\\ToDoList\\Server\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "D:\\פרקטיקוד\\ToDoList\\TodoApi\\TodoApi.csproj",
+        "projectPath": "D:\\פרקטיקוד\\ToDoList\\Server\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-        "outputPath": "D:\\פרקטיקוד\\ToDoList\\TodoApi\\obj\\",
+        "outputPath": "D:\\פרקטיקוד\\ToDoList\\Server\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -81,6 +85,10 @@
             "System.Text.Json": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
             }
           },
           "imports": [

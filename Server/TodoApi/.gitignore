@@ -1,0 +1,43 @@
+# Environment and sensitive files
+.env
+.env.*
+
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Rider / IntelliJ
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET Scaffolding
+.scaffolding
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.*.yml
