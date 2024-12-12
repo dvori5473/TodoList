@@ -28,7 +28,7 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddDbContext<ToDosContext>(options =>
     options.UseMySql(
-        "server=brzx0mmj95insrttx0bz-mysql.services.clever-cloud.com;user=umptrcv6yfydcep8;password=3KbdzSnaY3QnuemT7Z34;database=brzx0mmj95insrttx0bz",
+        connectionString,
         Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.40-mysql"))
 );
 
