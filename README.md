@@ -50,15 +50,18 @@ The **ToDo List** project is a Fullstack application designed for task managemen
 3. Run the backend:
    ```bash
    dotnet watch run
-# Frontend Setup
 
-## Steps to Run the Client
+### Frontend
 
 1. Navigate to the `Client` directory.
 
 2. Install dependencies:
    ```bash
    npm install
+3. Run the frontend:
+   ```bash
+   npm start
+
 ## Acknowledgments
 
 Special thanks to the tools and libraries that made this project possible:
