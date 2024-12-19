@@ -2,7 +2,7 @@
 https://todolist-kga5.onrender.com/
 ## Overview
 
-The **ToDo List** project is a Fullstack application designed for task management. It incorporates a **.NET 6 Minimal API** backend, a **React.js** client, and a **MySQL** database, providing seamless task CRUD operations with a focus on simplicity and performance.
+The **ToDo List** project is a Fullstack application designed for task management. It incorporates a **.NET 8 Minimal API** backend, a **React.js** client, and a **MySQL** database, providing seamless task CRUD operations with a focus on simplicity and performance.
 
 ## Features
 
@@ -41,7 +41,7 @@ The **ToDo List** project is a Fullstack application designed for task managemen
 
 - **MySQL** installed and running
 - **Node.js** and **npm** installed
-- **.NET 6 SDK** installed
+- **.NET 8 SDK** installed
 
 ### Backend
 
