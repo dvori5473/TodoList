@@ -17,7 +17,7 @@ The **ToDo List** project is a Fullstack application designed for task managemen
 ## Tech Stack
 
 ### Backend
-- **.NET 6 Minimal API**
+- **.NET 8 Minimal API**
 - **Entity Framework Core** (with Pomelo for MySQL)
 - **Swagger (Swashbuckle)**
 
